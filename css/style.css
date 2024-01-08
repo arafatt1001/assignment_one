@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: auto ;
+}
+
+nav .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.233);
+}
+
+nav{
+    margin: 20px 0 100px;
+}
+nav .overlay{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+nav .image{
+    background: url(../images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+nav .image .text{
+    width: 632px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0;
+    color: #FFFFFF;
+}
+
+nav .image .text p{
+    font-size: 32px;
+}
+nav .image .text h1{
+    font-size: 72px;
+    margin-top: 10px;
+}
+
+
+#one .text{
+    text-align: center;
+}
+#one .text h1{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+}
+#one .text p{
+    font-size: 24px;
+    color: #FF0000;
+    margin-top: 20px;
+}
+#one .text h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin: 20px 0 40px 0;
+    transition: .3s;
+}
+#one .text h2:hover{
+    color: #FF0000;
+}
+
+#one .image{
+    text-align: center;
+}
+
+
+#two{
+    margin-top: 100px;
+}
+#two .image{
+    background: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+#two .image .overlay{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+#two .image .overlay{
+    width: 100%;
+    display: flex;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+}
+#two .image .overlay .text{
+    margin-left: 200px;
+}
+#two .image .overlay .text h2{
+    width: 440px;
+    color: #FFFFFF;
+    font-size: 64px;
+    padding-top: 80px;
+}
+#two .image .overlay .text p{
+    width: 600px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 40px 0;
+}
+#two .image .overlay .text button{
+    background: transparent;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+#two .image .overlay .image{
+    width: 320px;
+    margin: 40px 0;
+}
+
+
+#three{
+    margin-top: 100px;
+}
+#three .three{
+    padding: 80px 0;
+    text-align: center;
+    background: #ff000031;
+}
+#three .three ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+#three .three ul li span{
+    color: #FF0000;
+}
+
+#three .three ul li{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+}
+#three .three button{
+    padding: 15px 20px;
+    margin-top: 40px;
+    border: 1px solid #FF0000;
+    background: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#three .three button a{
+    color: #FFFFFF;
+}
+
+
+#four{
+    margin-top: 100px;
+}
+#four .main_item{
+    display: flex;
+    gap: 80px;
+}
+
+#four .left{
+    width: 340px;
+}
+#four .left h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FF0000;
+}
+#four .left h2{
+    font-size: 48px;
+    font-weight: black;
+    margin: 20px 0;
+    color: #070211;
+}
+#four .left p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+}
+
+#four .circle{
+    width: 350px;
+    height: 350px;
+    color: #FF0000;
+    border-radius: 50%;
+    outline: 20px solid #FF0000;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+#four .circle::after{
+    content: "";
+    width: 270px;
+    height: 270px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: url(../images/Ellipse\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#four .right{
+    width: 300px;
+    padding-left: 20px;
+}
+#four .right h3{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: 800;
+}
+#four .right p{
+    color: #070211;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 0 35px 0;
+}
+
+
+#five{
+    margin-top: 100px;
+}
+#five .text{
+    text-align: center;
+}
+#five .text h4{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+#five .text h2{
+    color: #070211;
+    font-size: 72px;
+    font-weight: black;
+    margin: 10px 0 20px 0;
+}
+#five .text h2 span{
+    color: #FF0000;
+}
+#five .text p{
+    width: 700px;
+    color: #070211;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    justify-content: center;
+}
+
+
+#five .image{
+    margin-top: 50px;
+}
+#five .image .img1{
+    width: 670px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#five .image .sale_img{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+#five .image .img2{
+    width: 430px;
+    background: tan;
+    margin-bottom: -5px;
+    border-radius: 20px 20px 0 0;
+}
+
+#five .image .sale_img .circle::after{
+    content: "";
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 50%;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../images/Group\ 44.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#six{
+    margin-top: 100px;
+}
+#six .text h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+#six .text h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: black;
+    padding-top: 20px;
+    transition: .3s;
+}
+#six .text h2:hover{
+    color: #FF0000;
+}
+
+#six .text p{
+    width: 750px;
+    color: #070211;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0 40px 0;
+    transition: .3s;
+}
+#six .text p:hover{
+    color: #FF0000;
+}
+
+#six .portfolio .port_item1{
+    display: flex;
+    gap: 24px;
+}
+#six .portfolio .port_item2{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+#six .portfolio img:hover{
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 10px cornflowerblue;
+}
+
+
+
+#seven{
+    margin-top: 100px;
+}
+#seven .main{
+    padding: 50px 0 50px 0;
+    text-align: center;
+    border-radius: 10px;
+    background: #ff00001c;
+}
+
+#seven .main .text h2{
+    color: #070211;
+    font-size: 48px;
+    padding: 30px 0;
+    font-weight: black;
+}
+#seven .main .text p{
+    color: #070211;
+    width: 750px;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#seven .main .button{
+    margin-top: 30px;
+}
+#seven .main .button input{
+    border: 2px solid #ffff;
+    padding: 15px 80px;
+    border-radius: 30px 0 0 30px;
+}
+#seven .main .button button{
+    border: 2px solid #FF0000;
+    padding: 15px 40px;
+    border-radius: 0 30px 30px 0;
+    background: #FF0000;
+    margin-left: -5px;
+    font-size: 20;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+
+
+footer{
+    margin-top: 100px;
+    background: #070211;
+}
+
+footer .one{
+    display: flex;
+    padding-top: 50px;
+}
+
+footer .one p{
+    color: #FFFFFF;
+    width: 220px;
+    text-align: start;
+}
+footer .one ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .one ul li{
+    color: #FFFFFF;
+    width: 900px;
+    text-align: end;
+}
+
+footer .two{
+    color: #FFFFFF;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+footer .two img{
+    width: 40px;
+}
+
+footer .three{
+    display: flex;
+    padding: 30px 0 50px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer .three p{
+    color: #FFFFFF;
+    width: 660px;
+}
+
+footer .three span{
+    color: #FFFFFF;
+    width: 660px;
+    text-align: end;
+}
